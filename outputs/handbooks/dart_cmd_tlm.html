@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DART Command and Telemetry Handbook</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+<div class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Command and Telemetry Handbook</a>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="command_handbook.html">All Commands</a></li>
+      <li><a href="telemetry_handbook.html">All Telemetry</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Targets <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          
+          
+          
+            <li><a href="dart_cmd_tlm.html">DART</a></li>
+          
+            <li><a href="example_cmd_tlm.html">EXAMPLE</a></li>
+          
+            <li><a href="inst_cmd_tlm.html">INST</a></li>
+          
+            <li><a href="inst2_cmd_tlm.html">INST2</a></li>
+          
+            <li><a href="system_cmd_tlm.html">SYSTEM</a></li>
+          
+            <li><a href="templated_cmd_tlm.html">TEMPLATED</a></li>
+          
+            <li><a href="tomcat_cmd_tlm.html">TOMCAT</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div><!--/.nav-collapse -->
+</div>
+<h1>DART Command and Telemetry Handbook</h1>
+
+
+
+
+
+
+
+
+  <h2>Commands</h2>
+
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+      <li><a href="#cmd_DART_CLEAR_ERRORS">DART CLEAR_ERRORS</a></li>
+    
+  </ul>
+</div>
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+  </ul>
+</div>
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+  </ul>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+  <h2>Telemetry</h2>
+
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+      <li><a href="#tlm_DART_STATUS">DART STATUS</a></li>
+    
+  </ul>
+</div>
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+  </ul>
+</div>
+
+<div class="col-md-4">
+  <ul class="list-unstyled">
+    
+  </ul>
+</div>
+
+<div class="clearfix"></div>
+<h1 style="background:#555555;color:white;padding:10px;">Commands</h1>
+
+  <div id="cmd_DART_CLEAR_ERRORS">
+    <h2>DART CLEAR_ERRORS</h2>
+    <div><span style="font-size:18px;background:#555555;color:white;"></span></div>
+    <div>Clears error counters and messages</div>
+    
+    
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Description</th>
+          <th class="text-center">Min</th>
+          <th class="text-center">Max</th>
+          <th class="text-center">Default</th>
+          <th class="text-center">Bit Offset</th>
+          <th class="text-center">Bit Size</th>
+          <th class="text-center">Data Type</th>
+          <th class="text-center">Units</th>
+        </tr>
+      <thead>
+      <tbody>
+        
+          <tr>
+            <td>
+              PACKET_ID
+              
+            </td>
+            <td>
+              Packet Id
+              
+                <div><strong>Id Value: 1</strong></div>
+              
+              
+              
+            </td>
+            <td class="text-center" style="white-space: nowrap;">1</td>
+            <td class="text-center" style="white-space: nowrap;">1</td>
+            <td class="text-center" style="white-space: nowrap;">
+              1
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">8</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </div>
+  <hr></hr>
+
+<h1 style="background:#555555;color:white;padding:10px;">Telemetry Packets</h1>
+
+  <div id="tlm_DART_STATUS">
+    <h2>DART STATUS</h2>
+    <div>DART Status</div>
+    
+    
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Description</th>
+          <th class="text-center">Bit Offset</th>
+          <th class="text-center">Bit Size</th>
+          <th class="text-center">Data Type</th>
+          <th class="text-center">Units</th>
+          <th class="text-center">Format</th>
+        </tr>
+      <thead>
+      <tbody>
+        
+          <tr>
+            <td>PACKET_TIMESECONDS</td>
+            <td>
+              COSMOS Packet Time (UTC, Floating point, Unix epoch)
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>PacketTimeSecondsConversion</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center">%0.6f</td>
+          </tr>
+        
+          <tr>
+            <td>PACKET_TIMEFORMATTED</td>
+            <td>
+              COSMOS Packet Time (Local time zone, Formatted string)
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>PacketTimeFormattedConversion</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>RECEIVED_TIMESECONDS</td>
+            <td>
+              COSMOS Received Time (UTC, Floating point, Unix epoch)
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>ReceivedTimeSecondsConversion</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center">%0.6f</td>
+          </tr>
+        
+          <tr>
+            <td>RECEIVED_TIMEFORMATTED</td>
+            <td>
+              COSMOS Received Time (Local time zone, Formatted string)
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>ReceivedTimeFormattedConversion</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>RECEIVED_COUNT</td>
+            <td>
+              COSMOS packet received count
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>ReceivedCountConversion</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_FIRST_TIME</td>
+            <td>
+              Time of the first PacketLogEntry in the database
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>Time.at(packet.read('PLE_FIRST_TIME_S', :RAW, buffer), packet.read('PLE_FIRST_TIME_US', :RAW, buffer)).sys.formatted</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_LAST_TIME</td>
+            <td>
+              Time of the last PacketLogEntry in the database
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>Time.at(packet.read('PLE_LAST_TIME_S', :RAW, buffer), packet.read('PLE_LAST_TIME_US', :RAW, buffer)).sys.formatted</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_MESSAGE_TIME</td>
+            <td>
+              Time of decommutation message
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>Time.at(packet.read('DECOM_MESSAGE_TIME_S', :RAW, buffer), packet.read('DECOM_MESSAGE_TIME_US', :RAW, buffer)).sys.formatted</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_MESSAGE_TIME</td>
+            <td>
+              Time of reduction message
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>Time.at(packet.read('REDUCTION_MESSAGE_TIME_S', :RAW, buffer), packet.read('REDUCTION_MESSAGE_TIME_US', :RAW, buffer)).sys.formatted</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center">DERIVED</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PACKET_ID</td>
+            <td>
+              Packet Id
+              
+                <div><strong>Id Value: 1</strong></div>
+              
+              
+              
+            </td>
+            <td class="text-center">0</td>
+            <td class="text-center">8</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>LAST_PLE_ID</td>
+            <td>
+              Database ID of the most recent PacketLogEntry created
+              
+              
+              
+            </td>
+            <td class="text-center">8</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_STATE_NEED_DECOM</td>
+            <td>
+              Number of PacketLogEntries ready for decom
+              
+              
+              
+            </td>
+            <td class="text-center">72</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_STATE_ERROR</td>
+            <td>
+              Number of PacketLogEntries with errors
+              
+              
+              
+            </td>
+            <td class="text-center">136</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_COUNT</td>
+            <td>
+              Count of packets decommutated
+              
+              
+              
+            </td>
+            <td class="text-center">200</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_ERROR_COUNT</td>
+            <td>
+              Count of decommutation errors
+              
+              
+              
+            </td>
+            <td class="text-center">264</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_MESSAGE</td>
+            <td>
+              Most recent decommutation message
+              
+              
+              
+            </td>
+            <td class="text-center">328</td>
+            <td class="text-center">2048</td>
+            <td class="text-center">STRING</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_COUNT</td>
+            <td>
+              Count of packet reduced since DART started
+              
+              
+              
+            </td>
+            <td class="text-center">2376</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_ERROR_COUNT</td>
+            <td>
+              Count of reduction errors
+              
+              
+              
+            </td>
+            <td class="text-center">2440</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_MESSAGE</td>
+            <td>
+              Most recent reduction message
+              
+              
+              
+            </td>
+            <td class="text-center">2504</td>
+            <td class="text-center">2048</td>
+            <td class="text-center">STRING</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DART_DATA_BYTES</td>
+            <td>
+              Size of the DART Data folder in bytes
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>0.0 + 9.313225746154785e-10x</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">4552</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center">GB</td>
+            <td class="text-center">%0.2f</td>
+          </tr>
+        
+          <tr>
+            <td>DART_LOGS_BYTES</td>
+            <td>
+              Size of the DART Logs folder in bytes
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>0.0 + 9.313225746154785e-10x</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">4616</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center">GB</td>
+            <td class="text-center">%0.2f</td>
+          </tr>
+        
+          <tr>
+            <td>DART_DATABASE_BYTES</td>
+            <td>
+              Size of the DART Postgres database in bytes
+              
+              
+              
+                <table class="table table-striped table-bordered table-condensed" style="margin-top:10px">
+                  <tbody>
+                  
+                  
+                    <tr><td>Read Conversion:</td><td>0.0 + 9.313225746154785e-10x</td></tr>
+                  
+                  
+                  
+                  
+                  </tbody>
+                </table>
+              
+            </td>
+            <td class="text-center">4680</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center">GB</td>
+            <td class="text-center">%0.2f</td>
+          </tr>
+        
+          <tr>
+            <td>DART_STATUS_SECONDS</td>
+            <td>
+              Seconds to complete status queries
+              
+              
+              
+            </td>
+            <td class="text-center">4744</td>
+            <td class="text-center">64</td>
+            <td class="text-center">FLOAT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_FIRST_TIME_S</td>
+            <td>
+              Time of the first PacketLogEntry in the database seconds
+              
+              
+              
+            </td>
+            <td class="text-center">4808</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_FIRST_TIME_US</td>
+            <td>
+              Time of the first PacketLogEntry in the database microseconds
+              
+              
+              
+            </td>
+            <td class="text-center">4872</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_LAST_TIME_S</td>
+            <td>
+              Time of the last PacketLogEntry in the database seconds
+              
+              
+              
+            </td>
+            <td class="text-center">4936</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>PLE_LAST_TIME_US</td>
+            <td>
+              Time of the last PacketLogEntry in the database microseconds
+              
+              
+              
+            </td>
+            <td class="text-center">5000</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_MESSAGE_TIME_S</td>
+            <td>
+              Time of decommutation message seconds
+              
+              
+              
+            </td>
+            <td class="text-center">5064</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>DECOM_MESSAGE_TIME_US</td>
+            <td>
+              Time of decommutation message microseconds
+              
+              
+              
+            </td>
+            <td class="text-center">5128</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_MESSAGE_TIME_S</td>
+            <td>
+              Time of reduction message seconds
+              
+              
+              
+            </td>
+            <td class="text-center">5192</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+          <tr>
+            <td>REDUCTION_MESSAGE_TIME_US</td>
+            <td>
+              Time of reduction message microseconds
+              
+              
+              
+            </td>
+            <td class="text-center">5256</td>
+            <td class="text-center">64</td>
+            <td class="text-center">INT</td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </div>
+  <hr></hr>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

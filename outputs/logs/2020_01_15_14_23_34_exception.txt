@@ -1,0 +1,183 @@
+Exception:
+Error : Unable to require /Users/Lucas/cosmosdemo/config/targets/TOMCAT/lib/tomcat_interface.rb due to /Users/Lucas/cosmosdemo/config/targets/TOMCAT/lib/tomcat_interface.rb:19: syntax error, unexpected end-of-input, expecting keyword_end. Ensure /Users/Lucas/cosmosdemo/config/targets/TOMCAT/lib/tomcat_interface.rb is in the COSMOS lib directory.
+
+Parsed output in /Users/Lucas/cosmosdemo/outputs/tmp/config/targets/TOMCAT/target.txt
+
+Parsed output in /Users/Lucas/cosmosdemo/outputs/tmp/config/system/system.txt
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/target.rb:152:in `rescue in block in process_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/target.rb:135:in `block in process_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/config/config_parser.rb:200:in `parse_loop'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/config/config_parser.rb:200:in `parse_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/target.rb:129:in `process_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/target.rb:225:in `process_target_config_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/target.rb:114:in `initialize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:446:in `new'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:446:in `block in process_targets'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/config/config_parser.rb:200:in `parse_loop'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/config/config_parser.rb:200:in `parse_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:402:in `process_targets'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:390:in `block in process_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:204:in `process_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:609:in `reset_variables'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:99:in `initialize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:183:in `new'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:183:in `block in instance'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:182:in `synchronize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/system/system.rb:182:in `instance'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/utilities/classification_banner.rb:18:in `add_classification_banner'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:66:in `initialize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:109:in `initialize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:316:in `new'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:316:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:306:in `run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:645:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+
+Caller Backtrace:
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:328:in `rescue in block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:312:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:306:in `run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:645:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+
+Ruby Version: ruby 2.5.6 (2019-08-28 patchlevel 201) [x86_64-darwin18]
+Rubygems Version: 2.7.6.2
+Cosmos Version: 4.4.0
+Cosmos::PATH: /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0
+Cosmos::USERPATH: /Users/Lucas/cosmosdemo
+
+Environment:
+RUBYOPT: 
+RUBYLIB: 
+GEM_PATH: /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0:/Users/Lucas/.gem/ruby/2.5.0
+GEMRC: 
+RI_DEVKIT: 
+GEM_HOME: /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0
+PATH: /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/../bin:/Users/Lucas/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Ruby Path:
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/uuidtools-2.1.5/lib
+  /Users/Lucas/cosmosdemo/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/coderay-1.1.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/method_source-0.9.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/pry-0.12.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/yard-0.9.20/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/pry-doc-0.13.5/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/uuidtools-2.1.5/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/snmp-1.3.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/rubyzip-1.3.0/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/mini_portile2-2.4.0/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/nokogiri-1.10.5/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/nokogiri-1.10.5
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/opengl-bindings-1.6.9/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/qtbindings-4.8.6.5
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/puma-3.12.1/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/puma-3.12.1
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/rack-2.0.7/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/cosmos-4.4.0
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/json-2.2.0/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/json-2.2.0
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/ruby-termios-1.0.2/lib
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-18/2.5.0/ruby-termios-1.0.2
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/site_ruby/2.5.0
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/site_ruby/2.5.0/x86_64-darwin18
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/site_ruby
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/vendor_ruby/2.5.0
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/vendor_ruby/2.5.0/x86_64-darwin18
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/vendor_ruby
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/2.5.0
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/2.5.0/x86_64-darwin18
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/../lib/2.5
+  /Users/Lucas/cosmosdemo/config/targets/INST/lib
+  /Users/Lucas/cosmosdemo/config/targets/INST/procedures
+  /Users/Lucas/cosmosdemo/config/targets/EXAMPLE/lib
+  /Users/Lucas/cosmosdemo/config/targets/TEMPLATED/lib
+  /Users/Lucas/cosmosdemo/config/targets/SYSTEM/lib
+  /Users/Lucas/cosmosdemo/config/targets/TOMCAT/lib
+
+Gems:
+did_you_mean 1.2.0 ruby
+bundler 2.0.2 ruby
+coderay 1.1.2 ruby
+method_source 0.9.2 ruby
+pry 0.12.2 ruby
+yard 0.9.20 ruby
+pry-doc 0.13.5 ruby
+uuidtools 2.1.5 ruby
+snmp 1.3.2 ruby
+rubyzip 1.3.0 ruby
+mini_portile2 2.4.0 ruby
+nokogiri 1.10.5 ruby
+opengl-bindings 1.6.9 ruby
+qtbindings 4.8.6.5 ruby
+puma 3.12.1 ruby
+rack 2.0.7 ruby
+httpclient 2.8.3 ruby
+cosmos 4.4.0 ruby
+stringio 0.0.1 ruby
+date 1.0.0 ruby
+csv 1.0.0 ruby
+fileutils 1.0.2 ruby
+etc 1.0.0 ruby
+strscan 1.0.0 ruby
+json 2.2.0 ruby
+ipaddr 1.2.0 ruby
+fcntl 1.0.0 ruby
+ruby-termios 1.0.2 ruby
+openssl 2.1.2 ruby
+zlib 1.0.0 ruby
+
+All Threads Backtraces:
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:518:in `backtrace'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:518:in `block (2 levels) in write_exception_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:517:in `each'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:517:in `block in write_exception_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:328:in `rescue in block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:312:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:306:in `run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:645:in `block in run'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+/Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/utilities/sleeper.rb:27:in `select'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:489:in `block (2 levels) in redirect_io'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:474:in `loop'
+/Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:474:in `block in redirect_io'
+
+
+

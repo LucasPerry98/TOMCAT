@@ -1,0 +1,147 @@
+2019/11/11 13:43:48.483  INFO: COSMOS Version: 4.4.0
+2019/11/11 13:43:48.483  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/11/11 13:43:48.604  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server.txt
+2019/11/11 13:43:48.607  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server2.txt
+2019/11/11 13:43:48.667  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2019/11/11 13:43:48.668  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2019/11/11 13:43:48.669  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/DART/cmd_tlm_server.txt
+2019/11/11 13:43:48.682  INFO: Marshal load success: /Users/Lucas/cosmosdemo/outputs/tmp/marshal_1604356c32c41225e013c880570be2e6.bin
+2019/11/11 13:43:48.682  WARN: INST ASCIICMD STRING redefined.
+2019/11/11 13:43:48.682  WARN: INST2 ASCIICMD STRING redefined.
+2019/11/11 13:43:48.806  INFO: Creating thread for router INST_ROUTER
+2019/11/11 13:43:48.806  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/11/11 13:43:48.806  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/11/11 13:43:48.807  INFO: Creating thread for interface INST_INT
+2019/11/11 13:43:48.807  INFO: Creating thread for interface INST2_INT
+2019/11/11 13:43:48.807  INFO: Creating thread for interface SYSTEM_INT
+2019/11/11 13:43:48.813  INFO: Creating thread for interface TOMCAT_INT
+2019/11/11 13:43:48.813  INFO: Starting packet reading for INST_ROUTER
+2019/11/11 13:43:48.813  INFO: Connecting to INST_ROUTER...
+2019/11/11 13:43:48.813  INFO: INST_ROUTER Connection Success
+2019/11/11 13:43:48.813  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/11/11 13:43:48.813  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/11/11 13:43:48.813  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/11/11 13:43:48.813  INFO: Starting packet reading for INST2_INT
+2019/11/11 13:43:48.813  INFO: Connecting to INST2_INT...
+2019/11/11 13:43:48.814  INFO: Starting packet reading for SYSTEM_INT
+2019/11/11 13:43:48.814  INFO: Connecting to SYSTEM_INT...
+2019/11/11 13:43:48.814  INFO: SYSTEM_INT Connection Success
+2019/11/11 13:43:48.814  INFO: Starting packet reading for TOMCAT_INT
+2019/11/11 13:43:48.814  INFO: Connecting to TOMCAT_INT...
+2019/11/11 13:43:48.814  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/11/11 13:43:48.814  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/11/11 13:43:48.815  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/11/11 13:43:48.815  INFO: Starting packet reading for INST_INT
+2019/11/11 13:43:48.815  INFO: Connecting to INST_INT...
+2019/11/11 13:43:48.815  INFO: INST2_INT Connection Success
+2019/11/11 13:43:48.816  INFO: INST_INT Connection Success
+2019/11/11 13:43:48.939  ERROR: INST_INT - Unknown 10 byte packet starting: 0FE55E5F5E8E2C4A655E
+2019/11/11 13:43:48.990  ERROR: INST2_INT - Unknown 10 byte packet starting: 6AC025095C879AADD2A4
+2019/11/11 13:43:48.990  ERROR: INST2 PARAMS VALUE2 = BAD is RED (2019/11/11 13:43:48.990)
+2019/11/11 13:43:48.990  ERROR: INST2 PARAMS VALUE4 = BAD is RED (2019/11/11 13:43:48.990)
+2019/11/11 13:43:48.991  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2019/11/11 13:43:48.991)
+2019/11/11 13:43:48.991  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2019/11/11 13:43:48.991)
+2019/11/11 13:43:48.991  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2019/11/11 13:43:48.991)
+2019/11/11 13:43:48.991  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2019/11/11 13:43:48.991)
+2019/11/11 13:43:49.033  INFO: Log File Opened : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_11_13_43_48_tlm.bin
+2019/11/11 13:43:49.033  ERROR: INST PARAMS VALUE2 = BAD is RED (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.033  ERROR: INST PARAMS VALUE4 = BAD is RED (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.033  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.033  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.033  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.033  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2019/11/11 13:43:49.033)
+2019/11/11 13:43:49.887  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2019/11/11 13:43:49.887)
+2019/11/11 13:43:49.889  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2019/11/11 13:43:49.889)
+2019/11/11 13:43:50.877  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2019/11/11 13:43:50.876)
+2019/11/11 13:43:50.927  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2019/11/11 13:43:50.927)
+2019/11/11 13:43:53.819  INFO: Enabling Limits Group: INST2_TEMP2
+2019/11/11 13:43:53.819  INFO: Enabling Limits Group: INST2_GROUND
+2019/11/11 13:43:53.820  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2019/11/11 13:43:53.869  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW (2019/11/11 13:43:53.869)
+2019/11/11 13:43:53.888  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW (2019/11/11 13:43:53.888)
+2019/11/11 13:43:54.870  ERROR: INST2 HEALTH_STATUS TEMP1 = 84.55245000000002 is RED_HIGH (2019/11/11 13:43:54.870)
+2019/11/11 13:43:54.870  INFO: cmd("INST COLLECT with TYPE NORMAL, DURATION 5.0, OPCODE 171, TEMP 0.0")
+2019/11/11 13:43:54.913  INFO: Log File Opened : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_11_13_43_54_cmd.bin
+2019/11/11 13:43:54.914  ERROR: INST HEALTH_STATUS TEMP1 = 84.55245000000002 is RED_HIGH (2019/11/11 13:43:54.914)
+2019/11/11 13:43:54.914  INFO: cmd("INST COLLECT with TYPE NORMAL, DURATION 5.0, OPCODE 171, TEMP 0.0")
+2019/11/11 13:43:55.885  ERROR: INST2 HEALTH_STATUS TEMP2 = NaN is RED_LOW (2019/11/11 13:43:55.885)
+2019/11/11 13:43:55.885  ERROR: INST HEALTH_STATUS TEMP2 = NaN is RED_LOW (2019/11/11 13:43:55.885)
+2019/11/11 13:43:55.886  INFO: Disabling Limits Group: INST2_TEMP2
+2019/11/11 13:43:55.886  INFO: Disabling Limits Group: INST2_GROUND
+2019/11/11 13:43:58.820  INFO: Connecting to TOMCAT_INT...
+2019/11/11 13:43:58.871  ERROR: INST2_INT - Unknown 10 byte packet starting: 132F4BB5664814D24D07
+2019/11/11 13:43:58.889  ERROR: INST_INT - Unknown 10 byte packet starting: FEE8872938D19D0D4C83
+2019/11/11 13:43:58.890  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW (2019/11/11 13:43:58.890)
+2019/11/11 13:43:58.890  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN (2019/11/11 13:43:58.890)
+2019/11/11 13:43:59.082  INFO: User disconnecting interface INST2_INT
+2019/11/11 13:43:59.083  INFO: Killing thread for interface INST2_INT
+2019/11/11 13:43:59.086  INFO: Clean disconnect from INST2_INT (returned nil)
+2019/11/11 13:43:59.086  INFO: Connection Lost for INST2_INT
+2019/11/11 13:43:59.086  INFO: Stopped packet reading for INST2_INT
+2019/11/11 13:43:59.094  INFO: Disconnected from interface INST2_INT
+2019/11/11 13:43:59.603  INFO: User disconnecting interface INST_INT
+2019/11/11 13:43:59.603  INFO: Killing thread for interface INST_INT
+2019/11/11 13:43:59.605  INFO: Clean disconnect from INST_INT (returned nil)
+2019/11/11 13:43:59.605  INFO: Connection Lost for INST_INT
+2019/11/11 13:43:59.605  INFO: Stopped packet reading for INST_INT
+2019/11/11 13:43:59.613  INFO: Disconnected from interface INST_INT
+2019/11/11 13:44:03.825  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2019/11/11 13:44:08.828  INFO: Connecting to TOMCAT_INT...
+2019/11/11 13:44:13.829  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2019/11/11 13:44:18.833  INFO: Connecting to TOMCAT_INT...
+2019/11/11 13:44:21.202  INFO: Log File Closed : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_11_13_43_54_cmd.bin
+2019/11/11 13:44:21.203  INFO: Log File Closed : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_11_13_43_48_tlm.bin
+2019/11/11 13:44:21.203  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2019/11/11 13:44:21.203  INFO: Connection Lost for SYSTEM_INT
+2019/11/11 13:44:21.303  INFO: Killing thread for router INST_ROUTER
+2019/11/11 13:44:21.303  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2019/11/11 13:44:21.303  INFO: Connection Lost for INST_ROUTER
+2019/11/11 13:44:21.336  INFO: Stopped packet reading for INST_ROUTER
+2019/11/11 13:44:21.347  INFO: Disconnected from router INST_ROUTER
+2019/11/11 13:44:21.347  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/11/11 13:44:21.347  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/11/11 13:44:21.347  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/11/11 13:44:21.434  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/11/11 13:44:21.444  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/11/11 13:44:21.444  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/11/11 13:44:21.444  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/11/11 13:44:21.544  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/11/11 13:44:21.565  INFO: Disconnected from interface INST_INT
+2019/11/11 13:44:21.565  INFO: Disconnected from interface INST2_INT
+2019/11/11 13:44:21.565  INFO: Killing thread for interface SYSTEM_INT
+2019/11/11 13:44:21.566  INFO: Stopped packet reading for SYSTEM_INT
+2019/11/11 13:44:21.577  INFO: Disconnected from interface SYSTEM_INT
+2019/11/11 13:44:21.577  INFO: Killing thread for interface TOMCAT_INT
+2019/11/11 13:44:23.834  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2019/11/11 13:44:23.835  INFO: Stopped packet reading for TOMCAT_INT
+2019/11/11 13:44:23.845  INFO: Disconnected from interface TOMCAT_INT
+2019/11/11 13:44:23.845  INFO: Disconnected from interface EXAMPLE_INT
+2019/11/11 13:44:23.845  INFO: Disconnected from interface TEMPLATED_INT
+2019/11/11 13:44:23.845  INFO: Disconnected from interface DART_INT
+2019/11/11 13:44:24.891  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:471:in `block in stop_callback'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:114:in `execute_in_main_thread'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:467:in `stop_callback'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `call'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `stop'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:387:in `stop_threads'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:413:in `closeEvent'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:325:in `block in run'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/gui/qt_tool.rb:306:in `run'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:645:in `block in run'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+  /Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+  /Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+  /Users/Lucas/cosmosdemo/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+  
+  Thread Backtrace:
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `sleep'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `execute_in_main_thread'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:445:in `handle_string_output'
+  /Users/Lucas/.rbenv/versions/2.5.6/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:430:in `block in process_server_messages'
+

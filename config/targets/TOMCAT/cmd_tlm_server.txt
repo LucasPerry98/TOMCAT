@@ -1,0 +1,7 @@
+# This is a segment of the main cmd_tlm_server.txt that will be used with
+# AUTO_INTERFACE_TARGETS or INTERFACE_TARGET
+
+INTERFACE TOMCAT_INT tomcat_interface.rb 192.168.1.5 8888
+  TARGET TOMCAT
+  #DONT_CONNECT
+  #LOG_RAW

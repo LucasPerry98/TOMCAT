@@ -1,0 +1,148 @@
+2020/01/15 13:09:50.034  INFO: COSMOS Version: 4.4.0
+2020/01/15 13:09:50.034  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/01/15 13:09:50.185  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server.txt
+2020/01/15 13:09:50.293  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server2.txt
+2020/01/15 13:09:50.294  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2020/01/15 13:09:50.295  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2020/01/15 13:09:50.296  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/DART/cmd_tlm_server.txt
+2020/01/15 13:09:50.336  INFO: Marshal load success: /Users/Lucas/cosmosdemo/outputs/tmp/marshal_0f921295198f457b5b16bfaa9d619b51.bin
+2020/01/15 13:09:50.336  WARN: INST ASCIICMD STRING redefined.
+2020/01/15 13:09:50.336  WARN: INST2 ASCIICMD STRING redefined.
+2020/01/15 13:09:50.466  INFO: Creating thread for router INST_ROUTER
+2020/01/15 13:09:50.467  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/01/15 13:09:50.467  INFO: Starting packet reading for INST_ROUTER
+2020/01/15 13:09:50.467  INFO: Connecting to INST_ROUTER...
+2020/01/15 13:09:50.470  INFO: INST_ROUTER Connection Success
+2020/01/15 13:09:50.475  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/01/15 13:09:50.475  INFO: Creating thread for interface INST_INT
+2020/01/15 13:09:50.476  INFO: Creating thread for interface INST2_INT
+2020/01/15 13:09:50.476  INFO: Creating thread for interface SYSTEM_INT
+2020/01/15 13:09:50.476  INFO: Creating thread for interface TOMCAT_INT
+2020/01/15 13:09:50.569  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/01/15 13:09:50.569  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/01/15 13:09:50.570  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/01/15 13:09:50.570  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/01/15 13:09:50.570  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/01/15 13:09:50.570  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/01/15 13:09:50.570  INFO: Starting packet reading for INST_INT
+2020/01/15 13:09:50.570  INFO: Connecting to INST_INT...
+2020/01/15 13:09:50.570  INFO: Starting packet reading for INST2_INT
+2020/01/15 13:09:50.570  INFO: Connecting to INST2_INT...
+2020/01/15 13:09:50.571  INFO: Starting packet reading for SYSTEM_INT
+2020/01/15 13:09:50.571  INFO: Connecting to SYSTEM_INT...
+2020/01/15 13:09:50.571  INFO: SYSTEM_INT Connection Success
+2020/01/15 13:09:50.571  INFO: Starting packet reading for TOMCAT_INT
+2020/01/15 13:09:50.571  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:09:50.662  INFO: INST_INT Connection Success
+2020/01/15 13:09:50.663  INFO: INST2_INT Connection Success
+2020/01/15 13:09:50.736  ERROR: INST_INT - Unknown 10 byte packet starting: 1595F4D999DD902BBAE6
+2020/01/15 13:09:50.795  ERROR: INST2_INT - Unknown 10 byte packet starting: FD086C8E4D734076D0DB
+2020/01/15 13:09:50.795  ERROR: INST2 PARAMS VALUE2 = BAD is RED (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.795  ERROR: INST2 PARAMS VALUE4 = BAD is RED (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.795  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.795  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.795  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.795  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2020/01/15 13:09:50.795)
+2020/01/15 13:09:50.805  INFO: Log File Opened : /Users/Lucas/cosmosdemo/outputs/logs/2020_01_15_13_09_50_tlm.bin
+2020/01/15 13:09:50.806  ERROR: INST PARAMS VALUE2 = BAD is RED (2020/01/15 13:09:50.806)
+2020/01/15 13:09:50.806  ERROR: INST PARAMS VALUE4 = BAD is RED (2020/01/15 13:09:50.806)
+2020/01/15 13:09:50.806  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2020/01/15 13:09:50.806)
+2020/01/15 13:09:50.806  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2020/01/15 13:09:50.806)
+2020/01/15 13:09:50.806  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2020/01/15 13:09:50.806)
+2020/01/15 13:09:50.806  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2020/01/15 13:09:50.806)
+2020/01/15 13:09:51.654  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2020/01/15 13:09:51.654)
+2020/01/15 13:09:51.753  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2020/01/15 13:09:51.753)
+2020/01/15 13:09:52.617  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2020/01/15 13:09:52.617)
+2020/01/15 13:09:52.706  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2020/01/15 13:09:52.706)
+2020/01/15 13:09:53.368  INFO: User disconnecting interface INST2_INT
+2020/01/15 13:09:53.368  INFO: Killing thread for interface INST2_INT
+2020/01/15 13:09:53.371  INFO: Clean disconnect from INST2_INT (returned nil)
+2020/01/15 13:09:53.371  INFO: Connection Lost for INST2_INT
+2020/01/15 13:09:53.371  INFO: Stopped packet reading for INST2_INT
+2020/01/15 13:09:53.379  INFO: Disconnected from interface INST2_INT
+2020/01/15 13:09:53.756  INFO: User disconnecting interface INST_INT
+2020/01/15 13:09:53.756  INFO: Killing thread for interface INST_INT
+2020/01/15 13:09:53.761  INFO: Clean disconnect from INST_INT (returned nil)
+2020/01/15 13:09:53.761  INFO: Connection Lost for INST_INT
+2020/01/15 13:09:53.761  INFO: Stopped packet reading for INST_INT
+2020/01/15 13:09:53.767  INFO: Disconnected from interface INST_INT
+2020/01/15 13:09:55.571  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:09:55.572  INFO: Enabling Limits Group: INST2_TEMP2
+2020/01/15 13:09:55.572  INFO: Enabling Limits Group: INST2_GROUND
+2020/01/15 13:10:00.577  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:05.581  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:10:10.586  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:15.589  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:10:20.591  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:25.592  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:10:30.597  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:35.602  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:10:40.603  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:45.606  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:10:50.607  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:10:55.608  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:00.611  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:05.617  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:10.619  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:15.624  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:20.627  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:25.633  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:30.637  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:35.643  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:40.648  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:45.652  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:11:50.657  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:11:55.661  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:00.663  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:05.671  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:10.672  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:15.679  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:20.683  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:25.686  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:30.691  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:35.696  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:40.701  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:45.702  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:12:50.702  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:12:55.708  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:00.713  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:05.718  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:10.720  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:15.723  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:20.726  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:25.727  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:30.732  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:35.736  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:40.740  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:45.745  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:13:50.746  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:13:55.751  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:14:00.751  INFO: Connecting to TOMCAT_INT...
+2020/01/15 13:14:05.754  ERROR: TOMCAT_INT Connection Failed: RuntimeError : Connect timeout
+2020/01/15 13:14:09.191  INFO: Log File Closed : /Users/Lucas/cosmosdemo/outputs/logs/2020_01_15_13_09_50_tlm.bin
+2020/01/15 13:14:09.191  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2020/01/15 13:14:09.191  INFO: Connection Lost for SYSTEM_INT
+2020/01/15 13:14:09.292  INFO: Killing thread for router INST_ROUTER
+2020/01/15 13:14:09.293  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2020/01/15 13:14:09.293  INFO: Connection Lost for INST_ROUTER
+2020/01/15 13:14:09.400  INFO: Stopped packet reading for INST_ROUTER
+2020/01/15 13:14:09.400  INFO: Disconnected from router INST_ROUTER
+2020/01/15 13:14:09.400  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/01/15 13:14:09.400  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/01/15 13:14:09.400  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/01/15 13:14:09.497  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/01/15 13:14:09.506  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/01/15 13:14:09.506  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/01/15 13:14:09.506  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/01/15 13:14:09.603  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/01/15 13:14:09.625  INFO: Disconnected from interface INST_INT
+2020/01/15 13:14:09.625  INFO: Disconnected from interface INST2_INT
+2020/01/15 13:14:09.625  INFO: Killing thread for interface SYSTEM_INT
+2020/01/15 13:14:09.625  INFO: Stopped packet reading for SYSTEM_INT
+2020/01/15 13:14:09.635  INFO: Disconnected from interface SYSTEM_INT
+2020/01/15 13:14:09.635  INFO: Killing thread for interface TOMCAT_INT
+2020/01/15 13:14:09.635  INFO: Stopped packet reading for TOMCAT_INT
+2020/01/15 13:14:09.646  INFO: Disconnected from interface TOMCAT_INT
+2020/01/15 13:14:09.646  INFO: Disconnected from interface EXAMPLE_INT
+2020/01/15 13:14:09.646  INFO: Disconnected from interface TEMPLATED_INT
+2020/01/15 13:14:09.646  INFO: Disconnected from interface DART_INT

@@ -1,0 +1,85 @@
+2019/11/05 17:55:45.232  INFO: COSMOS Version: 4.4.0
+2019/11/05 17:55:45.232  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/11/05 17:55:45.348  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server.txt
+2019/11/05 17:55:45.349  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/INST/cmd_tlm_server2.txt
+2019/11/05 17:55:45.350  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2019/11/05 17:55:45.351  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2019/11/05 17:55:45.352  INFO: Processing CmdTlmServer configuration in file: /Users/Lucas/cosmosdemo/config/targets/DART/cmd_tlm_server.txt
+2019/11/05 17:55:45.428  INFO: Marshal load success: /Users/Lucas/cosmosdemo/outputs/tmp/marshal_280bf21e8453fad6a3fa0eb6c443e2cb.bin
+2019/11/05 17:55:45.428  WARN: INST ASCIICMD STRING redefined.
+2019/11/05 17:55:45.428  WARN: INST2 ASCIICMD STRING redefined.
+2019/11/05 17:55:45.548  INFO: Creating thread for router INST_ROUTER
+2019/11/05 17:55:45.548  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/11/05 17:55:45.548  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/11/05 17:55:45.548  INFO: Creating thread for interface INST_INT
+2019/11/05 17:55:45.548  INFO: Creating thread for interface INST2_INT
+2019/11/05 17:55:45.549  INFO: Creating thread for interface SYSTEM_INT
+2019/11/05 17:55:45.648  INFO: Starting packet reading for INST_ROUTER
+2019/11/05 17:55:45.648  INFO: Connecting to INST_ROUTER...
+2019/11/05 17:55:45.648  INFO: INST_ROUTER Connection Success
+2019/11/05 17:55:45.648  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/11/05 17:55:45.648  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/11/05 17:55:45.648  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/11/05 17:55:45.649  INFO: Starting packet reading for INST_INT
+2019/11/05 17:55:45.649  INFO: Connecting to INST_INT...
+2019/11/05 17:55:45.649  INFO: Starting packet reading for INST2_INT
+2019/11/05 17:55:45.649  INFO: Connecting to INST2_INT...
+2019/11/05 17:55:45.649  INFO: Starting packet reading for SYSTEM_INT
+2019/11/05 17:55:45.649  INFO: Connecting to SYSTEM_INT...
+2019/11/05 17:55:45.650  INFO: SYSTEM_INT Connection Success
+2019/11/05 17:55:45.702  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/11/05 17:55:45.702  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/11/05 17:55:45.702  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/11/05 17:55:45.706  INFO: INST_INT Connection Success
+2019/11/05 17:55:45.750  INFO: INST2_INT Connection Success
+2019/11/05 17:55:45.830  ERROR: INST2_INT - Unknown 10 byte packet starting: B64BC6C6912DA9BD5304
+2019/11/05 17:55:45.831  ERROR: INST2 PARAMS VALUE2 = BAD is RED (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.831  ERROR: INST2 PARAMS VALUE4 = BAD is RED (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.831  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.831  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.831  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.831  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2019/11/05 17:55:45.831)
+2019/11/05 17:55:45.940  ERROR: INST_INT - Unknown 10 byte packet starting: B41692ADDE706949BEC8
+2019/11/05 17:55:45.964  INFO: Log File Opened : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_05_17_55_45_tlm.bin
+2019/11/05 17:55:45.964  ERROR: INST PARAMS VALUE2 = BAD is RED (2019/11/05 17:55:45.964)
+2019/11/05 17:55:45.964  ERROR: INST PARAMS VALUE4 = BAD is RED (2019/11/05 17:55:45.964)
+2019/11/05 17:55:45.964  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2019/11/05 17:55:45.964)
+2019/11/05 17:55:45.964  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2019/11/05 17:55:45.964)
+2019/11/05 17:55:45.964  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2019/11/05 17:55:45.964)
+2019/11/05 17:55:45.964  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2019/11/05 17:55:45.964)
+2019/11/05 17:55:46.761  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2019/11/05 17:55:46.760)
+2019/11/05 17:55:46.762  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2019/11/05 17:55:46.762)
+2019/11/05 17:55:47.734  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2019/11/05 17:55:47.734)
+2019/11/05 17:55:47.735  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2019/11/05 17:55:47.735)
+2019/11/05 17:55:49.876  INFO: Log File Closed : /Users/Lucas/cosmosdemo/outputs/logs/2019_11_05_17_55_45_tlm.bin
+2019/11/05 17:55:49.876  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2019/11/05 17:55:49.876  INFO: Connection Lost for SYSTEM_INT
+2019/11/05 17:55:49.976  INFO: Killing thread for router INST_ROUTER
+2019/11/05 17:55:49.976  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2019/11/05 17:55:49.976  INFO: Connection Lost for INST_ROUTER
+2019/11/05 17:55:50.067  INFO: Stopped packet reading for INST_ROUTER
+2019/11/05 17:55:50.072  INFO: Disconnected from router INST_ROUTER
+2019/11/05 17:55:50.072  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/11/05 17:55:50.073  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/11/05 17:55:50.073  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/11/05 17:55:50.161  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/11/05 17:55:50.170  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/11/05 17:55:50.170  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/11/05 17:55:50.170  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/11/05 17:55:50.246  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/11/05 17:55:50.268  INFO: Killing thread for interface INST_INT
+2019/11/05 17:55:50.270  INFO: Clean disconnect from INST_INT (returned nil)
+2019/11/05 17:55:50.270  INFO: Connection Lost for INST_INT
+2019/11/05 17:55:50.270  INFO: Stopped packet reading for INST_INT
+2019/11/05 17:55:50.279  INFO: Disconnected from interface INST_INT
+2019/11/05 17:55:50.279  INFO: Killing thread for interface INST2_INT
+2019/11/05 17:55:50.279  INFO: Clean disconnect from INST2_INT (returned nil)
+2019/11/05 17:55:50.279  INFO: Connection Lost for INST2_INT
+2019/11/05 17:55:50.279  INFO: Stopped packet reading for INST2_INT
+2019/11/05 17:55:50.290  INFO: Disconnected from interface INST2_INT
+2019/11/05 17:55:50.290  INFO: Killing thread for interface SYSTEM_INT
+2019/11/05 17:55:50.290  INFO: Stopped packet reading for SYSTEM_INT
+2019/11/05 17:55:50.301  INFO: Disconnected from interface SYSTEM_INT
+2019/11/05 17:55:50.301  INFO: Disconnected from interface EXAMPLE_INT
+2019/11/05 17:55:50.301  INFO: Disconnected from interface TEMPLATED_INT
+2019/11/05 17:55:50.301  INFO: Disconnected from interface DART_INT
